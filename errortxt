@@ -1,0 +1,82 @@
+Dear customer,
+we have received a negative result for your request on domain lyd-roleplay.de
+
+The nameservers for domain lyd-roleplay.de do not resolve correctly.
+
+
+Your mail that has caused the error:
+
+From robot@hetzner.com Mon Mar 23 13:22:44 2020
+Return-path: <robot@hetzner.com>
+Envelope-to: robot@robot.first-ns.de
+Delivery-date: Mon, 23 Mar 2020 13:22:44 +0100
+Received: from dedirobot.your-server.de ([78.46.1.93])
+        by robot.first-ns.de with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+        (Exim 4.89_1)
+        (envelope-from <robot@hetzner.com>)
+        id 1jGM6N-0005XB-Nh
+        for robot@robot.first-ns.de; Mon, 23 Mar 2020 13:22:44 +0100
+Received: from localhost ([127.0.0.1] helo=dedirobot.your-server.de)
+        by dedirobot.your-server.de with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+        (Exim 4.89_1)
+        (envelope-from <robot@hetzner.com>)
+        id 1jGM6N-00049H-KC
+        for robot@robot.first-ns.de; Mon, 23 Mar 2020 13:22:43 +0100
+To: robot@robot.first-ns.de
+Subject: Robot order
+Message-ID: <1584966163.5e78aa136aa93@robot.your-server.de>
+Date: Mon, 23 Mar 2020 13:22:43 +0100
+From: nico.celik@live.de
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Creator: Web
+X-Virus-Scanned: Clear (ClamAV 0.102.2/25759/Sun Mar 22 14:14:18 2020)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+user: K0324777918
+job: domain
+task: upd
+domain: lyd-roleplay.de
+holder: DENIC-168-robot-365365
+generalc: DENIC-168-robot-391125
+abusec: DENIC-168-robot-391125
+ns1: laura.ns.cloudflare.com
+ns2: newt.ns.cloudflare.com
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEwypBgaR2gROZne3nRSb9rG3xtCsFAl54qhMACgkQRSb9rG3x
+tCuUFAf/fYJAFcpFn+WCYC81Szl53ikWzpV3pPmVYRjYqNpHtYzedf7Q0T2Rvsza
+vMpIXWZzlct4HdyiV0aB9PVFhZojTFwCDoYlMP6PeYWlBt7IQZs/M3Xlc15YCA5b
+Ma4s37+9mAkMB7W24fR7XWYXUgB5fDMuRJTvn4LtMQU2Y3ChY/QWPyvVv0L4pjlI
+cBc6yU6EZ7PHf3AVLUtqyTPE833KIYrnyC8tJLmRKRtVg/jOFjLEKjAiLEsGiE3T
+RodScBMEQJ0wRnJ0/DGZ120cHtXgRtk004VHXDbszSLPl3xHn2lI+OfDUcO4jwED
+FXKCfjnlEjrYrZH/SROfdKnf47nbkQ==
+=P/e5
+-----END PGP SIGNATURE-----
+
+
+
+
+
+The reply we got:
+
+response:
+  result:
+    code: '2305'
+    msg: 'Object association prohibits operation'
+    extValue:
+      -
+        value: ERROR
+        reason: 'Nameserver error [ERROR: 901 Unexpected RCODE (target, entity, RCODE) (laura.ns.cloudflare.com./2606:4700:50:0:0:0:adf5:3ab7:53, lyd-roleplay.de, REFUSED)]'
+      -
+        value: ERROR
+        reason: 'Nameserver error [ERROR: 901 Unexpected RCODE (target, entity, RCODE) (newt.ns.cloudflare.com./2606:4700:58:0:0:0:adf5:3bd4:53, lyd-roleplay.de, REFUSED)]'
+      -
+        value: ERROR
+        reason: 'Nameserver error [ERROR: 901 Unexpected RCODE (target, entity, RCODE) (newt.ns.cloudflare.com./173.245.59.212:53, lyd-roleplay.de, REFUSED)]'
+      -
+        value: ERROR
+        reason: 'Nameserver error [ERROR: 901 Unexpected RCODE (target, entity, RCODE) (laura.ns.cloudflare.com./173.245.58.183:53, lyd-roleplay.de, REFUSED)]'
